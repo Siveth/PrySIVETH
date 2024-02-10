@@ -126,7 +126,7 @@ function Register() {
 
       console.error("Error al enviar la solicitud:", error);
 
-      alert("Error\nOcurrió un error al intentar registrar");
+      alert("Error\nOcurrió un error al intentar registrar.");
     }
   };
 
