@@ -443,27 +443,3 @@ function Register() {
 
 export default Register;
 
-/* catch (error) {
-        if (error.response) {
-           if (error.response.status === 400) {
-        Redirige a la página de Error400 si el código de estado es 400
-             window.location.href = "/Error400";
-           } else if (error.response.status === 500) {
-              Redirige a la página de Error500 si el código de estado es 500
-             window.location.href = "/Error500";
-           } else {
-              Muestra un mensaje de error detallado si es posible
-             alert("Error en el inicio de sesión: " + error.response.data.message);
-          }
-       }
-        if (error.request) {
-          La solicitud fue realizada pero no se recibió respuesta
-         console.error("No se recibió respuesta del servidor");
-        
-       } else {
-          Ocurrió un error antes de enviar la solicitud
-         console.error("Error al enviar la solicitud:", error.message);
-       }
-      
-     }
-   }; */
