@@ -121,11 +121,11 @@ function Register() {
         alert("Error\nRegistro fallido");
       }
     } catch (error) {
-<<<<<<< HEAD
+
       console.error("Error al enviar la solicitud", error);
-=======
+
       console.error("Error al enviar la solicitud:", error);
->>>>>>> 6cf1a92ad3784c1acde4d92535c93f99e732edd4
+
       alert("Error\nOcurrió un error al intentar registrar");
     }
   };
@@ -211,10 +211,6 @@ function Register() {
               </div>
             </div>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6cf1a92ad3784c1acde4d92535c93f99e732edd4
             {/* Apellido Materno */}
             <div className="flex mb-4">
               <div className="w-5/12 ml-5">
